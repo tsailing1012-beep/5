@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>給你的專屬旋律</title>
+    <style>
+        body {
+            font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            /* 高級感漸層灰色 (深炭黑 to 中性灰) */
+            background: linear-gradient(135deg, #121212 0%, #2c3e50 50%, #bdc3c7 100%);
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            padding: 30px 15px;
+            width: 92%;
+            max-width: 400px;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1rem;
+            margin: 0 0 8px 0;
+            color: #bdc3c7; /* 銀灰色文字 */
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        p.sub-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ecf0f1; /* 亮灰白文字 */
+            margin: 0 0 20px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .spotify-wrapper {
+            background: #282828;
+            border-radius: 12px;
+            overflow: hidden;
+            min-height: 352px;
+            line-height: 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            white-space: nowrap; /* 強制不換行 */
+            letter-spacing: 0.5px;
+            color: rgba(255, 255, 255, 0.8);
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-card">
+        <h1>雋永的心有靈犀(?)</h1>
+        <p class="sub-title">只有你懂3 on 1</p>
+        
+        <div class="spotify-wrapper">
+            <iframe 
+                src="https://open.spotify.com/embed/track/2JsVTIGU8AH4U0Z4LZY0II?utm_source=generator" 
+                width="100%" 
+                height="352" 
+                frameborder="0" 
+                allowtransparency="true" 
+                allow="encrypted-media">
+            </iframe>
+        </div>
+
+        <div class="footer">
+            永遠會記得笑成智障的我們XD
+        </div>
+    </div>
+
+</body>
+</html>
